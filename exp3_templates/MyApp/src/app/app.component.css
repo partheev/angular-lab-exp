@@ -1,0 +1,16 @@
+.display-field {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+.all-fields {
+  padding: 2rem;
+
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
