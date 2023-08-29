@@ -1,0 +1,13 @@
+<div class="navbar">
+    <div class="logo">
+        Logo
+    </div>
+    <div class="nav-list">
+        <h4  *ngFor="let route of routes">
+            <a class="nav-item" [routerLink]="route.path">
+                {{route.name}}
+            </a>
+            </h4>
+
+    </div>
+</div>
